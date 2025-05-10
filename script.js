@@ -117,13 +117,13 @@ console.log(getUsersWithFriend(users, 'Briana Decker')); // [ 'Sharlene Bush', '
 console.log(getUsersWithFriend(users, 'Goldie Gentry')); // [ 'Elma Head', 'Sheree Anthony' ]
 
 console.log(3);
-// const getNamesSortedByFriendsCount = users => {
-//   const sorted = users.sort((a, b) => a.friends.length - b.friends.length)
-//   return sorted.map(user => user.name)
-// };
+const getNamesSortedByFriendsCount = users => {
+const sorted = users.sort((a, b) => a.friends.length - b.friends.length)
+return sorted.map(user => user.name)
+};
 
-// console.log(getNamesSortedByFriendsCount(users));
-// [ 'Moore Hensley', 'Sharlene Bush', 'Elma Head', 'Carey Barr', 'Blackburn Dotson', 'Sheree Anthony', 'Ross Vazquez' ]
+console.log(getNamesSortedByFriendsCount(users));
+ // [ 'Moore Hensley', 'Sharlene Bush', 'Elma Head', 'Carey Barr', 'Blackburn Dotson', 'Sheree Anthony', 'Ross Vazquez' ]
 
 console.log(4);
 
