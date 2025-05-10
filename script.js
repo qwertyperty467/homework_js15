@@ -1,17 +1,3 @@
-class Person {
-    constructor(firstName, lastName) {
-      this.firstName = firstName
-      this.lastName = lastName
-    }
-    getFullName() {
-    return `${this.firstName} ${this.lastName}`;
-    }
-}
-const person1 = new Person('Kirill','Llirik')
-console.log(person1.getFullName());
-
-const users = [
-
   {
 
     id: '701b29c3-b35d-4cf1-a5f6-8b12b29a5081',
